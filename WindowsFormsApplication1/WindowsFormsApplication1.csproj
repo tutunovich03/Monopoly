@@ -1,0 +1,391 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{4DB20A41-3766-4397-89B4-D73EDBC611B2}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WindowsFormsApplication1</RootNamespace>
+    <AssemblyName>WindowsFormsApplication1</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Class1.cs" />
+    <Compile Include="CommunityChest.cs" />
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Igrac.cs" />
+    <Compile Include="Poljanaprodaju.cs" />
+    <Compile Include="Polje.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Takse.cs" />
+    <Compile Include="Ugaonapolja.cs" />
+    <Compile Include="Ulice.cs" />
+    <Compile Include="Zatvor.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\81btrHKgO0L._AC_SL1500_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\0fc16fd16c0d0590ef41ba4a44816455.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download11.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\monopoly-brik-game-scottish-terrier-hasbro-pieces-png-download-monopoly-game-piece-png-900_520.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Untitled.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Untitled1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\500.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5001.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\10.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\20.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\100.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5002.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Alea_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Alea_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Alea_3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Alea_4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Alea_5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Alea_6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\454-4543879_monopoly-house-clipart-monopoly-clip-art-emoji-face-png-transparent-background.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Crveni.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Zuti.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Untitled11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Untitled2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Untitled21.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Untitled3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Untitled4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Untitled5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Untitled6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Untitled7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Untitled8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Untitled9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Untitled10.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Untitled111.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Untitled12.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Untitled13.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Untitled14.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Untitled15.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Untitled16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Untitled17.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Untitled18.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Untitled19.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Untitled20.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Untitled211.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Untitled22.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\railroad1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\railroad2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\railroad3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\railroad4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\41r75OSTsQL._AC_SY355_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\61hl40f2U9L._SL1334_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chance1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chance2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chance3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chance4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chance5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chance6.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chance7.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chance8.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chance9.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chance10.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chance11.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chance12.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chance13.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chance14.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chance15.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chance16.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cc1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cc2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cc3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cc4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cc5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cc6.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cc7.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cc8.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cc9.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cc10.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cc11.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cc12.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cc13.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cc14.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cc15.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cc16.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cc17.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\48-487846_monopoly-game-piece-hat-monopoly-game-pieces-png.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\66-669225_monopoly-shoe-piece-monopoly-board-game-pieces.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hipoteka.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Uputstvo1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Uputstvo2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Uputstvo4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Uputstvo3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Uputstvo5.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
